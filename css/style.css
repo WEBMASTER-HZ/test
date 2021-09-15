@@ -49,14 +49,14 @@
      padding: 0 0 10px 0;
      font-weight: bold;
      line-height: bold;
-     color: #111111;
+     color: #142850;
      margin: 0 
 }
  h1 {
      font-size: 24px 
 }
  h2 {
-     font-size: 22px 
+     font-size: 25px 
 }
  h3 {
      font-size: 18px 
@@ -93,7 +93,7 @@
      font-weight: 300;
      font-size: 15px;
      line-height: 24px;
-     color: white;
+     color: #757575;
 }
  a {
      color: #222222;
@@ -265,11 +265,11 @@
      position: fixed;
      z-index: 9999999;
      background: #fff;
-     width: 100%;
+  width: 100%;
      height: 100%;
 }
  .loader {
-     height: 100%;
+ height: 100%;
      width: 100%;
      position: absolute;
      left: 0;
@@ -278,9 +278,7 @@
      justify-content: center;
      align-items: center;
 }
- .loader img {
-     width: 280px;
-}
+
 /*---------------------------- scroll to top area ----------------------------*/
  .scrollup {
      float: right;
@@ -1227,7 +1225,6 @@
      position: absolute;
      width: 208px;
      content: "";
-     background: url(../images/3.png);
      background-repeat: repeat;
      height: 444px;
      background-repeat: no-repeat;
@@ -1395,18 +1392,11 @@
 /** We_are section **/
  .We_are {
      padding-top: 90px;
-     padding-bottom: 180px;
+  /*   padding-bottom: 180px;*/
      background: #fff;
 }
  .We_are .titlepage {
-    padding-bottom: 60px;
-}
- .We_are .titlepage {
-     padding-bottom: 60px;
-     text-align: center;
-}
- .We_are .titlepage h2 {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
  .We_are .titlepage span {
      color: #3d3c3c;
@@ -1537,12 +1527,9 @@
  .titlepage h2 {
      padding: 0px 0px 6px 0px;
      font-weight: bold;
-     color: #000;
+     color: #142850;
      line-height: 46px;
-     border-bottom: #000 solid 1px;
      font-size: 40px;
-     width: 367px;
-     margin: 0 auto;
      text-transform: uppercase;
 }
  .clients .clients_box {
@@ -1589,15 +1576,14 @@
      width: 25%;
 }
  .footer {
-     background: #08082d;
+     background: #018ea3;
      padding-top: 90px;
 }
- .footer .address h3 {
+ .footer .address h2 {
      color: #fff;
-     font-size: 25px;
+     /*font-size: 25px;*/
      line-height: 35px;
      font-weight: bold;
-     text-transform: uppercase;
      padding-bottom: 20px;
 }
  .footer .address i {
@@ -1769,15 +1755,16 @@
      color: #fff;
      font-size: 18px;
      line-height: 22px;
-     text-align: center;
-     border-top: #fff solid 1px;
+   /*  border-top: #fff solid 0.5px;*/
      padding-top: 20px;
 }
  .copyright a {
     color: #fff;
+    padding-right: 2em;
+    padding-left: 2em;
 }
  .copyright a:hover {
-     color: #0f69c6 
+     color: #FEC526 
 }
 /** end footer **/
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
@@ -1860,3 +1847,16 @@
     color: white;
     border: none;
 }
+.text-bg p{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;}
+
+    .We_are h4{
+        text-align: center;
+        padding-top: 2em;
+    }
+
+            
+
+      
